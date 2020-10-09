@@ -1,3 +1,7 @@
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,14 +21,27 @@ public class CounterPrime implements Runnable{
     private int lowerSide;
     private int upperSide;
 
+    static Logger logger = LogManager.getLogger();
+
     public CounterPrime(int lowerSide, int upperSide) {
         this.lowerSide = lowerSide;
         this.upperSide = upperSide;
         primeList = new ArrayList<>();
     }
+    public void searchPrimeFromInterval(){
+        for (int i = lowerSide; i<=upperSide; i++){
+            if (PrimeCheck.primeCheck(i)){
+                primeList.add(i);
+                logger.log(Level.INFO, "New prime number found, value :"+i);
+            }
+        }
+    }
 
     @Override
     public void run() {
-
+        searchPrimeFromInterval();
+        System.out.println("From ["+lowerSide+","+upperSide+"] "
+                +primeList.size()+" prime numbers"+
+                (primeList.size()<=1? " is ":" are ")+"found");
     }
 }

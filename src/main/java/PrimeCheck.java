@@ -2,7 +2,6 @@ public final class PrimeCheck {
 
     public static boolean primeCheck(Integer p){
         int i; // for looping
-
         if(p <= 3){
             return (p > 1);
         }else if( p % 2 == 0 || p % 3 == 0){
