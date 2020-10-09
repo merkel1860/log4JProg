@@ -5,7 +5,7 @@
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n"/>
         </file>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n"/>
+            <PatternLayout pattern="%highlight{ %d{dd MMM yyyy HH:mm:ss.SSS} %style{%-5level}{bright,cyan} [%t] [Class : %c{1}] %logger{36} - %m%n}"/>
         </Console>
     </Appenders>
     <Loggers>

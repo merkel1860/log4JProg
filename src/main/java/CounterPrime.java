@@ -18,8 +18,8 @@ public class CounterPrime implements Runnable{
      * @see Thread#run()
      */
     private List<Integer> primeList;
-    private int lowerSide;
-    private int upperSide;
+    private final int lowerSide;
+    private final int upperSide;
 
     static Logger logger = LogManager.getLogger();
 
