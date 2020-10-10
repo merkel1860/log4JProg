@@ -7,6 +7,16 @@
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%highlight{ %d{dd MMM yyyy HH:mm:ss.SSS} %-5level [%t] [Class : %c{1}] - %m%n}"/>
         </Console>
+        <RollingFile name="RollingFile" fileName="logs/app.log"
+                     filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="1MB"/>
+            </Policies>
+        </RollingFile>
         <JDBC name="databaseAppender" tableName="log_management.logs">
             <ConnectionFactory class="ConnectionFactory" method="getConnection" />
             <Column name="pk_log_managementId" pattern="%uuid{TIME}" />
@@ -23,6 +33,7 @@
             <AppenderRef ref="Console" />
             <AppenderRef level="ERROR" ref="file"/>
             <AppenderRef level="ERROR" ref="databaseAppender"/>
+            <AppenderRef level="INFO" ref="RollingFile"/>
         </Root>
     </Loggers>
 </Configuration>
