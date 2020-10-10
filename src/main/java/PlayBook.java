@@ -12,7 +12,7 @@ public class PlayBook {
         logger.log(Level.INFO, "Testing is going well.");
         logger.error("Temperature is too high.");
 
-        CounterPrime ctp1 = new CounterPrime(1, 1000000);
+        CounterPrime ctp1 = new CounterPrime(1, 10);
         Thread a = new Thread(ctp1);
         a.start();
         logger.error("Ending Main-thread execution.");

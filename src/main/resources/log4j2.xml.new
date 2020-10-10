@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--        The below example shows how to filter log events based on -->
+<!--        the package of the class doing the logging: all DEBUG and -->
+<!--        TRACE level log events by classes in package com.other.company -->
+<!--        will be ignored, and for classes in package com.another.project -->
+<!--        only ERROR and FATAL logging will be included.-->
+<Configuration status="warn">
+    <Appenders>
+        <File name="MyFile" fileName="logs/my.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <!-- drops all DEBUG and TRACE logging done by any class in this package -->
+        <Logger name="com.other.company" level="INFO" />
+
+        <!-- log only ERROR and FATAL logging by classes in this package -->
+        <Logger name="com.another.project" level="ERROR" />
+
+        <!-- by default, all log events are written to MyFile -->
+        <Root level="trace">
+            <AppenderRef ref="MyFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

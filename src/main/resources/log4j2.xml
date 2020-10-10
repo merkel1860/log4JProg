@@ -23,7 +23,7 @@
             <Column name="timeid" pattern="%d{dd MMM yyyy HH:mm:ss}" />
             <Column name="message" pattern="%message" />
             <Column name="loglevel" pattern="%level" />
-            <Column name="logmarker" pattern="%level" />
+            <Column name="packageName" pattern="%c{1}" />
             <Column name="logger" pattern="%logger" />
             <Column name="logtimestamp" isEventTimestamp="true" />
         </JDBC>
