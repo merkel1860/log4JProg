@@ -5,13 +5,24 @@
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %m%n"/>
         </file>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%highlight{ %d{dd MMM yyyy HH:mm:ss.SSS} %style{%-5level}{bright,cyan} [%t] [Class : %c{1}] %logger{36} - %m%n}"/>
+            <PatternLayout pattern="%highlight{ %d{dd MMM yyyy HH:mm:ss.SSS} %-5level [%t] [Class : %c{1}] - %m%n}"/>
         </Console>
+        <JDBC name="databaseAppender" tableName="log_management.logs">
+            <ConnectionFactory class="ConnectionFactory" method="getConnection" />
+            <Column name="pk_log_managementId" pattern="%uuid{TIME}" />
+            <Column name="timeid" pattern="%d{dd MMM yyyy HH:mm:ss}" />
+            <Column name="message" pattern="%message" />
+            <Column name="loglevel" pattern="%level" />
+            <Column name="logmarker" pattern="%level" />
+            <Column name="logger" pattern="%logger" />
+            <Column name="logtimestamp" isEventTimestamp="true" />
+        </JDBC>
     </Appenders>
     <Loggers>
         <Root level="INFO">
             <AppenderRef ref="Console" />
             <AppenderRef level="ERROR" ref="file"/>
+            <AppenderRef level="ERROR" ref="databaseAppender"/>
         </Root>
     </Loggers>
 </Configuration>
