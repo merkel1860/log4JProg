@@ -1,11 +1,6 @@
 
 import org.apache.logging.log4j.Logger;
-
 import java.sql.*;
-import java.util.Map;
-import java.util.Properties;
-import java.util.concurrent.Executor;
-
 import org.apache.logging.log4j.LogManager;
 
 

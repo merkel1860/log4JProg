@@ -15,6 +15,7 @@ public class PlayBook {
         CounterPrime ctp1 = new CounterPrime(300, 545);
         Thread a = new Thread(ctp1);
         a.start();
+        logger.error("Ending Main-thread execution.");
 
     }
 }

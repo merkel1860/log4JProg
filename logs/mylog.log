@@ -58,3 +58,11 @@
 19:55:58.015 [main] ERROR PlayBook - Temperature is too high.
 19:56:38.678 [main] ERROR PlayBook - Temperature is too high.
 20:06:44.963 [main] ERROR PlayBook - Temperature is too high.
+20:26:25.399 [main] ERROR PlayBook - Temperature is too high.
+20:26:25.753 [main] ERROR PlayBook - Ending Main-thread execution.
+20:28:43.174 [main] ERROR PlayBook - Temperature is too high.
+20:28:43.471 [main] ERROR PlayBook - Ending Main-thread execution.
+20:30:11.153 [main] ERROR PlayBook - Temperature is too high.
+20:30:11.491 [main] ERROR PlayBook - Ending Main-thread execution.
+20:31:24.568 [main] ERROR PlayBook - Temperature is too high.
+20:31:24.894 [main] ERROR PlayBook - Ending Main-thread execution.
