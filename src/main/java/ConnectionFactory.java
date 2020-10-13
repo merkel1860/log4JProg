@@ -19,7 +19,7 @@ public class ConnectionFactory {
             logger.error(e.getMessage());
         }
         String connectionUrl = "jdbc:mysql://localhost:3306/jammyDB?" +
-                "useUnicode=true&characterEncoding=UTF-8&user=nebel&password=nebel1984&serverTimezone=UTC";
+                "useUnicode=true&characterEncoding=UTF-8&user=nebel&password=nebel1984" + "&serverTimezone=UTC";
         try {
             connection = DriverManager.getConnection(connectionUrl);
         } catch (SQLException throwables) {

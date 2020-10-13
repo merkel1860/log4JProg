@@ -40,3 +40,32 @@
 2020-10-13 00:40:18,609 INFO CounterPrime [Thread-1] New prime number found, value :7
 2020-10-13 00:40:18,640 INFO ConnectionFactory [main] Connection to Database successful
 2020-10-13 00:40:18,607 ERROR PlayBook [main] Ending Main-thread execution.
+2020-10-13 00:42:42,913 INFO PlayBook [main] Testing is going well.
+2020-10-13 00:42:43,432 INFO ConnectionFactory [main] Connection to Database successful
+2020-10-13 00:42:42,916 ERROR PlayBook [main] Temperature is too high.
+2020-10-13 00:42:43,595 INFO CounterPrime [Thread-1] New prime number found, value :2
+2020-10-13 00:42:43,597 INFO CounterPrime [Thread-1] New prime number found, value :3
+2020-10-13 00:42:43,598 INFO CounterPrime [Thread-1] New prime number found, value :5
+2020-10-13 00:42:43,598 INFO CounterPrime [Thread-1] New prime number found, value :7
+2020-10-13 00:42:43,631 INFO ConnectionFactory [main] Connection to Database successful
+2020-10-13 00:42:43,594 ERROR PlayBook [main] Ending Main-thread execution.
+2020-10-13 00:56:57,855 INFO PlayBook [main] Testing is going well.
+2020-10-13 00:56:58,364 ERROR ConnectionFactory [main] The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2020-10-13 00:56:58,368 ERROR ConnectionFactory [main] Connection error, Failed to connect to MySQL
+2020-10-13 00:56:57,858 ERROR PlayBook [main] Temperature is too high.
+2020-10-13 00:56:58,375 INFO CounterPrime [Thread-1] New prime number found, value :2
+2020-10-13 00:56:58,375 INFO CounterPrime [Thread-1] New prime number found, value :3
+2020-10-13 00:56:58,376 INFO CounterPrime [Thread-1] New prime number found, value :5
+2020-10-13 00:56:58,376 INFO CounterPrime [Thread-1] New prime number found, value :7
+2020-10-13 00:56:58,402 ERROR ConnectionFactory [main] The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2020-10-13 00:56:58,403 ERROR ConnectionFactory [main] Connection error, Failed to connect to MySQL
+2020-10-13 00:56:58,374 ERROR PlayBook [main] Ending Main-thread execution.
+2020-10-13 00:57:09,902 INFO PlayBook [main] Testing is going well.
+2020-10-13 00:57:10,412 INFO ConnectionFactory [main] Connection to Database successful
+2020-10-13 00:57:09,905 ERROR PlayBook [main] Temperature is too high.
+2020-10-13 00:57:10,573 INFO CounterPrime [Thread-1] New prime number found, value :2
+2020-10-13 00:57:10,573 INFO CounterPrime [Thread-1] New prime number found, value :3
+2020-10-13 00:57:10,573 INFO CounterPrime [Thread-1] New prime number found, value :5
+2020-10-13 00:57:10,574 INFO CounterPrime [Thread-1] New prime number found, value :7
+2020-10-13 00:57:10,604 INFO ConnectionFactory [main] Connection to Database successful
+2020-10-13 00:57:10,572 ERROR PlayBook [main] Ending Main-thread execution.
