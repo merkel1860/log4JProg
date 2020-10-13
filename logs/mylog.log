@@ -102,3 +102,35 @@
 21:37:54.648 [main] ERROR PlayBook - Ending Main-thread execution.
 21:39:46.138 [main] ERROR PlayBook - Temperature is too high.
 21:39:46.528 [main] ERROR PlayBook - Ending Main-thread execution.
+23:54:56.129 [main] ERROR PlayBook - Temperature is too high.
+23:54:56.803 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+23:54:56.805 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+23:54:56.816 [main] ERROR PlayBook - Ending Main-thread execution.
+23:54:56.863 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+23:54:56.864 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+23:55:53.707 [main] ERROR PlayBook - Temperature is too high.
+23:55:54.214 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+23:55:54.220 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+23:55:54.237 [main] ERROR PlayBook - Ending Main-thread execution.
+23:55:54.294 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+23:55:54.295 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+00:13:10.501 [main] ERROR PlayBook - Temperature is too high.
+00:13:11.105 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+00:13:11.107 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+00:13:11.114 [main] ERROR PlayBook - Ending Main-thread execution.
+00:13:11.143 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+00:13:11.144 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+00:20:07.190 [main] ERROR PlayBook - Temperature is too high.
+00:20:07.742 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+00:20:07.747 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+00:20:07.755 [main] ERROR PlayBook - Ending Main-thread execution.
+00:20:07.791 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+00:20:07.794 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+00:33:33.531 [main] ERROR PlayBook - Temperature is too high.
+00:33:34.159 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+00:33:34.164 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+00:33:34.172 [main] ERROR PlayBook - Ending Main-thread execution.
+00:33:34.199 [main] ERROR ConnectionFactory - The server time zone value 'EDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+00:33:34.200 [main] ERROR ConnectionFactory - Connection error, Failed to connect to MySQL
+00:40:17.913 [main] ERROR PlayBook - Temperature is too high.
+00:40:18.607 [main] ERROR PlayBook - Ending Main-thread execution.

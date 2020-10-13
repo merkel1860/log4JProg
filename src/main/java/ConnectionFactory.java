@@ -13,13 +13,13 @@ public class ConnectionFactory {
     private static void settingConnectionParameters() {
         logger = LogManager.getLogger();
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
             logger.error(e.getMessage());
         }
         String connectionUrl = "jdbc:mysql://localhost:3306/jammyDB?" +
-                "useUnicode=true&characterEncoding=UTF-8&user=nebel&password=nebel1984";
+                "useUnicode=true&characterEncoding=UTF-8&user=nebel&password=nebel1984&serverTimezone=UTC";
         try {
             connection = DriverManager.getConnection(connectionUrl);
         } catch (SQLException throwables) {
